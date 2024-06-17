@@ -15,6 +15,9 @@ botaoCriacao.addEventListener('click', () => {
     descricaoSalvar = validacaoDescricao(descricaoSalvar)
     criacaoLista(tituloSalvar, descricaoSalvar)
 
+    titulo.value = '';
+    descricao.value = '';
+
 });
 
 
